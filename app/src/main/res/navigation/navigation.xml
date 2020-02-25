@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_root"
+            app:startDestination="@id/mainActivity4">
+    <fragment android:id="@+id/mainActivity4"
+              android:name="org.d3if4009.pra_a1.MainActivity"
+              android:label="MainActivity"
+              tools:layout="@layout/activity_main">
+        <action android:id="@+id/action_mainActivity4_to_segitiga4"
+                app:destination="@id/segitiga4"/>
+
+        <action android:id="@+id/action_mainActivity4_to_persegiPanjang5"
+                app:destination="@id/persegiPanjang5"/>
+
+        <action android:id="@+id/action_mainActivity4_to_about4"
+                app:destination="@id/about4"/>
+    </fragment>
+
+    <fragment android:id="@+id/persegiPanjang5"
+              android:name="org.d3if4009.pra_a1.persegiPanjang"
+              android:label="persegiPanjang"
+              tools:layout="@layout/fragment_persegi_panjang"/>
+
+    <fragment android:id="@+id/segitiga4"
+              android:name="org.d3if4009.pra_a1.segitiga"
+              android:label="segitiga"
+              tools:layout="@layout/fragment_segitiga"/>
+
+    <fragment android:id="@+id/about4"
+              android:name="org.d3if4009.pra_a1.about"
+              android:label="about"
+              tools:layout="@layout/fragment_about"/>
+
+</navigation>

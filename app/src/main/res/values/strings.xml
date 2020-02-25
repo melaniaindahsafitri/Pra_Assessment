@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pra_A1</string>
+    <string name="pra_assesment_1">Pra Assesment 1</string>
+    <string name="persegi_panjang">PERSEGI PANJANG</string>
+    <string name="segitigaa">SEGITIGA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="hitung">HITUNG</string>
+    <string name="luas_pp">Luas</string>
+    <string name="keliling_pp">Keliling</string>
+    <string name="share">SHARE</string>
+    <string name="nama">Melania Indah Safitri</string>
+    <string name="kelas">D3RPLA-42-02</string>
+    <string name="nim">6706184009</string>
+
+</resources>
