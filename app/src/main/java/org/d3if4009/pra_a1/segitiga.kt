@@ -41,7 +41,7 @@ class segitiga : Fragment() {
             return (sisi*3).toDouble()
         }
         binding.btnHitungpp.setOnClickListener {
-            val HasilKeliling = HitungKeliling(binding.editText2.text.toString().toInt(), binding.editText3.text.toString().toInt())
+//            val HasilKeliling = HitungKeliling(binding.editText2.text.toString().toInt(), binding.editText3.text.toString().toInt())
         }
         return binding.root
     }
